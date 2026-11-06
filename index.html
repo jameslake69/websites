@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!--
+    Growing Happy — example homepage
+    ============================================================
+    EXAMPLE CONTENT. Every business detail on this page (name excepted)
+    is placeholder copy: phone, email, address, hours, prices, ages,
+    staff names and testimonials are invented for demonstration.
+    Replace ALL of it with real, verified details before publishing.
+    See checklists/PUBLISH_CHECKLIST.md before you publish anything.
+
+    Stack: plain HTML + Tailwind Play CDN (pinned 3.4.16, vetted — see
+    SKILLS.md) + hand-written css/custom.css. No build step, no backend,
+    no keys, no analytics, no cookies. Works by double-clicking this file.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Growing Happy Daycare — Safe, Play-Based Childcare | [Your Town]</title>
+  <meta name="description" content="Growing Happy Daycare offers safe, play-based childcare for infants, toddlers and preschoolers in [Your Town]. Small groups, caring teachers, flexible hours. Book a tour today.">
+  <link rel="canonical" href="https://www.example.com/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Growing Happy Daycare — Safe, Play-Based Childcare">
+  <meta property="og:description" content="Small groups, caring teachers, play-based learning for infants, toddlers and preschoolers. Book a tour today.">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:image" content="https://www.example.com/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Icons / PWA basics (no service worker — static site, nothing to install) -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#2f7d5b">
+
+  <!-- Tailwind Play CDN, PINNED to the vetted version (SKILLS.md).
+       Dev/starter convenience only: it compiles utilities in the browser.
+       For production, compile Tailwind once (see SETUP.md) and drop this
+       tag. The page still looks right without it — css/custom.css carries
+       the design system. -->
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#eef7f1', 100: '#d7ecdf', 500: '#2f7d5b', 600: '#27684c', 700: '#1f523d' },
+            sunny: { 300: '#ffd97a', 400: '#ffc53d', 500: '#f5a623' },
+            ink: '#1f2937'
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- LocalBusiness schema — replace ALL placeholder values before publishing.
+       Never publish invented hours, prices, or reviews as fact. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ChildCare",
+    "name": "Growing Happy Daycare",
+    "description": "Play-based childcare for infants, toddlers and preschoolers.",
+    "url": "https://www.example.com/",
+    "telephone": "+1-555-010-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Example Street",
+      "addressLocality": "[Your Town]",
+      "addressRegion": "[Your State]",
+      "postalCode": "00000",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Fr 07:00-18:00",
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body class="bg-white text-ink antialiased">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ================= HEADER / NAV ================= -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Growing Happy Daycare — home">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40" aria-hidden="true">
+        <span class="brand-name">Growing Happy</span>
+        <span class="brand-tag">Daycare &amp; Preschool</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#why-us">Why us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#visit" class="btn btn-primary btn-small">Book a tour</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Now enrolling · Ages 6 weeks – 5 years</p>
+          <h1 id="hero-title">A safe, happy place for your little one to grow.</h1>
+          <p class="lede">Play-based learning, small groups, and teachers who truly know your child — in [Your Town]. Come see it for yourself.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#visit">Book a tour</a>
+            <a class="btn btn-secondary" href="#programs">See programs</a>
+          </div>
+          <ul class="trust-list" aria-label="At a glance">
+            <li><strong>1:4</strong> infant ratio*</li>
+            <li><strong>Licensed</strong> &amp; inspected*</li>
+            <li><strong>7am–6pm</strong> weekdays*</li>
+          </ul>
+          <p class="fineprint">*Example claims — verify your real ratios, licence and hours before publishing.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <!-- CSS/SVG art only — no stock photo shipped. Replace with a real,
+               compressed photo of your own space (see SETUP.md image guide). -->
+          <div class="hero-card">
+            <span class="hero-emoji" aria-hidden="true">🌱</span>
+            <p class="hero-card-title">Today at Growing Happy</p>
+            <p class="hero-card-text">Story time · Garden play · Music &amp; movement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRUST BAR ================= -->
+    <section class="trustbar" aria-label="Highlights">
+      <div class="wrap trustbar-inner">
+        <p><strong>Small groups</strong> — every child known by name</p>
+        <p><strong>Play-based learning</strong> — no worksheets, lots of doing</p>
+        <p><strong>Daily updates</strong> — photos &amp; notes for parents</p>
+      </div>
+    </section>
+
+    <!-- ================= PROGRAMS / SERVICES ================= -->
+    <section id="programs" class="section" aria-labelledby="programs-title">
+      <div class="wrap">
+        <p class="eyebrow">Programs</p>
+        <h2 id="programs-title">Care that fits each age</h2>
+        <p class="section-intro">Four age-based programs. Every room follows the same rhythm: warm welcome, play, learning, rest, outdoor time.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Infants <span class="age">6 weeks – 12 mo</span></h3>
+            <p>Gentle routines, tummy time, songs, and one consistent caregiver so your baby feels secure.</p>
+            <p class="card-meta">Ratio 1:4* · From $X/week*</p>
+          </article>
+          <article class="card">
+            <h3>Toddlers <span class="age">1 – 2 years</span></h3>
+            <p>First words, first friendships. Sensory play, simple songs, and lots of outdoor exploring.</p>
+            <p class="card-meta">Ratio 1:5* · From $X/week*</p>
+          </article>
+          <article class="card">
+            <h3>Preschool <span class="age">3 – 4 years</span></h3>
+            <p>Letters, numbers, and big imagination — through play, stories, art, and building.</p>
+            <p class="card-meta">Ratio 1:8* · From $X/week*</p>
+          </article>
+          <article class="card">
+            <h3>Pre-K <span class="age">4 – 5 years</span></h3>
+            <p>School-ready confidence: early reading, counting, sharing, and taking turns.</p>
+            <p class="card-meta">Ratio 1:10* · From $X/week*</p>
+          </article>
+        </div>
+        <p class="fineprint">*Example ratios and prices — replace with your real numbers. Never publish a price you cannot honour.</p>
+      </div>
+    </section>
+
+    <!-- ================= WHY US / FEATURES ================= -->
+    <section id="why-us" class="section section-tinted" aria-labelledby="why-title">
+      <div class="wrap">
+        <p class="eyebrow">Why families choose us</p>
+        <h2 id="why-title">What makes Growing Happy different</h2>
+        <div class="feature-list">
+          <div class="feature">
+            <h3>Teachers who stay</h3>
+            <p>Low staff turnover means your child bonds with the same familiar faces, week after week.</p>
+          </div>
+          <div class="feature">
+            <h3>Real food, real play</h3>
+            <p>Fresh snacks, outdoor time every day, and play — not screens — as the way children learn.</p>
+          </div>
+          <div class="feature">
+            <h3>You always know</h3>
+            <p>A short daily update with photos, meals, naps, and moments — so you never wonder how their day went.</p>
+          </div>
+          <div class="feature">
+            <h3>Safe by design</h3>
+            <p>Secure entry, checked outdoor space, first-aid trained staff, and clear pickup rules.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIAL ================= -->
+    <section class="section" aria-labelledby="stories-title">
+      <div class="wrap">
+        <p class="eyebrow">Parent stories</p>
+        <h2 id="stories-title">What parents say</h2>
+        <figure class="quote">
+          <blockquote>“Our daughter runs to the door every morning. The teachers know her so well — and the daily photos mean I never miss a moment.”</blockquote>
+          <figcaption>— Example Parent, Preschool family*</figcaption>
+        </figure>
+        <p class="fineprint">*Example testimonial — only publish real quotes from real parents, with their permission, using their real words.</p>
+      </div>
+    </section>
+
+    <!-- ================= CTA BANNER ================= -->
+    <section class="cta-banner" aria-labelledby="cta-title">
+      <div class="wrap cta-inner">
+        <h2 id="cta-title">Come and see it for yourself.</h2>
+        <p>Tours take about 20 minutes. Bring your little one — they can play while we talk.</p>
+        <a class="btn btn-light" href="#visit">Book a free tour</a>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="wrap wrap-narrow">
+        <p class="eyebrow">Questions</p>
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <div class="faq" data-faq>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false">What are your hours?</button></h3>
+            <div class="faq-answer" hidden>
+              <p>Example answer: weekdays 7:00am–6:00pm. Replace with your real hours, including holiday closures.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false">What should my child bring?</button></h3>
+            <div class="faq-answer" hidden>
+              <p>Example answer: a change of clothes, nappies/diapers if needed, and any comfort item. We provide meals and snacks. Replace with your real list.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false">How do I enrol?</button></h3>
+            <div class="faq-answer" hidden>
+              <p>Book a tour below, meet the team, then we hold your place with a registration form and deposit. Replace with your real enrolment steps and fees.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false">Do you offer part-time places?</button></h3>
+            <div class="faq-answer" hidden>
+              <p>Example answer: yes, 2–3 days a week where places allow. Replace with your real availability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT / VISIT ================= -->
+    <section id="visit" class="section section-tinted" aria-labelledby="visit-title">
+      <div class="wrap wrap-narrow">
+        <p class="eyebrow">Visit us</p>
+        <h2 id="visit-title">Book a tour</h2>
+        <p class="section-intro">Tell us a little about your family and we will reply within one working day* to arrange a time.</p>
+        <!-- No backend on purpose: this form opens the visitor's email app.
+             For a real form that saves enquiries, use Formspree or Netlify
+             Forms — documented in SETUP.md, needs your approval first. -->
+        <form class="contact-form" data-mailto-form>
+          <div class="field">
+            <label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-child">Child's age</label>
+            <select id="f-child" name="child-age">
+              <option>Under 1</option>
+              <option>1 – 2 years</option>
+              <option>3 – 4 years</option>
+              <option>4 – 5 years</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">Anything we should know? <span class="optional">(optional)</span></label>
+            <textarea id="f-msg" name="message" rows="4"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send tour request</button>
+          <p class="fineprint">Opens your email app — nothing is stored on this site. Replace the address in js/main.js with your real email before publishing.</p>
+        </form>
+        <address class="contact-details">
+          <p><strong>Growing Happy Daycare</strong><br>
+          123 Example Street, [Your Town], [Your State] 00000<br>
+          Phone: <a href="tel:+15550100000">(555) 010-0000</a> · Email: <a href="mailto:hello@example.com">hello@example.com</a><br>
+          Open weekdays 7:00am–6:00pm*</p>
+        </address>
+        <p class="fineprint">*All contact details on this page are placeholders.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p><strong>Growing Happy Daycare</strong></p>
+        <p>Safe, play-based childcare in [Your Town].</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#why-us">Why us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#visit">Book a tour</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p><a href="tel:+15550100000">(555) 010-0000</a><br>
+        <a href="mailto:hello@example.com">hello@example.com</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© <span data-year>2026</span> Growing Happy Daycare. All rights reserved.</p>
+      <p>Licence no. [YOUR-LICENCE-NUMBER] · This site uses no cookies and no tracking.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

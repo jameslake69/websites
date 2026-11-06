@@ -1,0 +1,38 @@
+# .gitignore — websites repo (static site, no build, no secrets)
+# ---------------------------------------------------------------------------
+# Nothing in this repo needs a secret. If that ever changes, the secret goes
+# in the hosting dashboard (Netlify/GitHub settings), NEVER in a file here.
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / OS
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+Thumbs.db
+
+# Node — only if you ever add the optional Tailwind compile step (SETUP.md).
+# The starter itself needs no Node at all. (package.json / package-lock.json
+# are intentionally NOT ignored: if the compile step is added, pinning the
+# lockfile is what keeps the build reproducible.)
+node_modules/
+npm-debug.log*
+
+# Build outputs (only if the optional compile step is added later)
+dist/
+.css-output/
+
+# Local preview / test artefacts
+*.log
+lighthouse-reports/
+
+# MotionSites licence: the skill is MIT, but examples/ and media/ are
+# © MotionSites — they must NEVER be pushed to a public repo or resold.
+# Excluded here so a public push cannot carry them by accident.
+skills/motionsites-web-builder/examples/
+skills/motionsites-web-builder/media/

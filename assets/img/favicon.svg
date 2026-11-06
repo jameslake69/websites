@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Growing Happy favicon">
+  <rect width="64" height="64" rx="14" fill="#2f7d5b"/>
+  <path d="M32 46c0-10 2-16 8-20-1 8-3 14-8 20zm0 0c0-10-2-16-8-20 1 8 3 14 8 20z" fill="#ffd97a"/>
+  <path d="M32 48v-14" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="26" r="5" fill="#fff"/>
+</svg>

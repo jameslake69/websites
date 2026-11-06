@@ -1,0 +1,1853 @@
+{
+  "skill": {
+    "name": "motionsites-web-builder",
+    "source": "/home/hatch/workspace/security-scans/repos/motionsites/plugins/motionsites-web-builder/skills/motionsites-web-builder",
+    "scanned_at": "2026-11-06T18:06:12.373476+00:00"
+  },
+  "risk_assessment": {
+    "score": 41,
+    "severity": "MEDIUM",
+    "recommendation": "CAUTION",
+    "max_issue_severity": "MEDIUM"
+  },
+  "components": [
+    {
+      "path": "SKILL.md",
+      "type": "markdown",
+      "lines": 117,
+      "executable": false,
+      "size_bytes": 8693,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/3d-character-studio.md",
+      "type": "markdown",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 6250,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/3d-collectible-hero.md",
+      "type": "markdown",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 5749,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/3d-jack-portfolio-hero.md",
+      "type": "markdown",
+      "lines": 146,
+      "executable": false,
+      "size_bytes": 14424,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/INDEX.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 9041,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/aethera-hero.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 3547,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/aetheris-voyage-hero.md",
+      "type": "markdown",
+      "lines": 155,
+      "executable": false,
+      "size_bytes": 10805,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/agent-wave.md",
+      "type": "markdown",
+      "lines": 341,
+      "executable": false,
+      "size_bytes": 17317,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/ai-runtime.md",
+      "type": "markdown",
+      "lines": 246,
+      "executable": false,
+      "size_bytes": 10163,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/ai-workflow.md",
+      "type": "markdown",
+      "lines": 464,
+      "executable": false,
+      "size_bytes": 17109,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/asme-hero.md",
+      "type": "markdown",
+      "lines": 53,
+      "executable": false,
+      "size_bytes": 4883,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/bloom-ai-hero.md",
+      "type": "markdown",
+      "lines": 67,
+      "executable": false,
+      "size_bytes": 4294,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/bold-studio.md",
+      "type": "markdown",
+      "lines": 81,
+      "executable": false,
+      "size_bytes": 6431,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/contact-cybernetic.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 6809,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/creative-studio.md",
+      "type": "markdown",
+      "lines": 113,
+      "executable": false,
+      "size_bytes": 5865,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/digital-epoch-hero.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 4984,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/digital-experiences.md",
+      "type": "markdown",
+      "lines": 159,
+      "executable": false,
+      "size_bytes": 9390,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/email-landing-page.md",
+      "type": "markdown",
+      "lines": 237,
+      "executable": false,
+      "size_bytes": 19950,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/equilibrium.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 5157,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/halo-usd-landing.md",
+      "type": "markdown",
+      "lines": 96,
+      "executable": false,
+      "size_bytes": 8978,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/immersive-ocean.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 4406,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/innovation-landing.md",
+      "type": "markdown",
+      "lines": 121,
+      "executable": false,
+      "size_bytes": 9380,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/intelligence-layer.md",
+      "type": "markdown",
+      "lines": 262,
+      "executable": false,
+      "size_bytes": 14617,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/intelligent-operations.md",
+      "type": "markdown",
+      "lines": 256,
+      "executable": false,
+      "size_bytes": 11087,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/interactive-discovery.md",
+      "type": "markdown",
+      "lines": 76,
+      "executable": false,
+      "size_bytes": 7476,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/mindloop-landing.md",
+      "type": "markdown",
+      "lines": 134,
+      "executable": false,
+      "size_bytes": 7654,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/modern-agency.md",
+      "type": "markdown",
+      "lines": 115,
+      "executable": false,
+      "size_bytes": 10719,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/mostar-guide.md",
+      "type": "markdown",
+      "lines": 446,
+      "executable": false,
+      "size_bytes": 28766,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/neo-museum.md",
+      "type": "markdown",
+      "lines": 305,
+      "executable": false,
+      "size_bytes": 15400,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/neon-logic.md",
+      "type": "markdown",
+      "lines": 195,
+      "executable": false,
+      "size_bytes": 13970,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/network-hero.md",
+      "type": "markdown",
+      "lines": 115,
+      "executable": false,
+      "size_bytes": 7910,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/portal-hero.md",
+      "type": "markdown",
+      "lines": 120,
+      "executable": false,
+      "size_bytes": 7030,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/portfolio-cosmic-hero.md",
+      "type": "markdown",
+      "lines": 185,
+      "executable": false,
+      "size_bytes": 8730,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/prisma-landing.md",
+      "type": "markdown",
+      "lines": 128,
+      "executable": false,
+      "size_bytes": 8978,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/prompt-hero.md",
+      "type": "markdown",
+      "lines": 228,
+      "executable": false,
+      "size_bytes": 13713,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/prosthetics-hero.md",
+      "type": "markdown",
+      "lines": 44,
+      "executable": false,
+      "size_bytes": 3804,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/retro-futurist.md",
+      "type": "markdown",
+      "lines": 82,
+      "executable": false,
+      "size_bytes": 6090,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/securify-hero.md",
+      "type": "markdown",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 4219,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/stillmind.md",
+      "type": "markdown",
+      "lines": 133,
+      "executable": false,
+      "size_bytes": 6383,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/tech-forward.md",
+      "type": "markdown",
+      "lines": 49,
+      "executable": false,
+      "size_bytes": 3767,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/velorah-hero.md",
+      "type": "markdown",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 4161,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/vex-ventures-hero.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 5436,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/MEDIA.md",
+      "type": "markdown",
+      "lines": 142,
+      "executable": false,
+      "size_bytes": 27829,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-1.jpg",
+      "type": "other",
+      "lines": 6119,
+      "executable": false,
+      "size_bytes": 243093,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-2.jpg",
+      "type": "other",
+      "lines": 5276,
+      "executable": false,
+      "size_bytes": 228522,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-3.jpg",
+      "type": "other",
+      "lines": 8705,
+      "executable": false,
+      "size_bytes": 376513,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-4.jpg",
+      "type": "other",
+      "lines": 7085,
+      "executable": false,
+      "size_bytes": 286944,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-5.jpg",
+      "type": "other",
+      "lines": 6626,
+      "executable": false,
+      "size_bytes": 271681,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "media/sheet-6.jpg",
+      "type": "other",
+      "lines": 3845,
+      "executable": false,
+      "size_bytes": 157907,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/assets.md",
+      "type": "markdown",
+      "lines": 103,
+      "executable": false,
+      "size_bytes": 6755,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/builders.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 2106,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/craft.md",
+      "type": "markdown",
+      "lines": 185,
+      "executable": false,
+      "size_bytes": 17316,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/review.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 4356,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/spec-template.md",
+      "type": "markdown",
+      "lines": 148,
+      "executable": false,
+      "size_bytes": 7489,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/3d-and-webgl.md",
+      "type": "markdown",
+      "lines": 487,
+      "executable": false,
+      "size_bytes": 27837,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/INDEX.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 9535,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/depth-and-interaction.md",
+      "type": "markdown",
+      "lines": 534,
+      "executable": false,
+      "size_bytes": 32730,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/layout-and-ui.md",
+      "type": "markdown",
+      "lines": 755,
+      "executable": false,
+      "size_bytes": 55079,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/scroll.md",
+      "type": "markdown",
+      "lines": 552,
+      "executable": false,
+      "size_bytes": 35595,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/surfaces-and-buttons.md",
+      "type": "markdown",
+      "lines": 435,
+      "executable": false,
+      "size_bytes": 33111,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/type-and-text-motion.md",
+      "type": "markdown",
+      "lines": 826,
+      "executable": false,
+      "size_bytes": 52672,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "references/techniques/video-and-media.md",
+      "type": "markdown",
+      "lines": 668,
+      "executable": false,
+      "size_bytes": 38644,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "scripts/shoot.py",
+      "type": "python",
+      "lines": 111,
+      "executable": true,
+      "size_bytes": 5743,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    }
+  ],
+  "structured_summaries": [],
+  "issues": [
+    {
+      "id": "LP3",
+      "finding_id": "finding-5292e8400ade47f9a121e87fbd8301f5",
+      "category": "MCP Least Privilege",
+      "pattern": "Skill declares no tool scope ('permissions' or 'allowed-tools') but code capabilities were detected: network, shell.",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "SKILL.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": "Skill declares no tool scope ('permissions' or 'allowed-tools') but code capabilities were detected: network, shell.",
+      "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+      "remediation": "Clarify the skill's intended tool scope and review how the host runtime enforces it; runtime permissions are unknown unless separately verified. For Claude Code / Agent Skills SKILL.md, 'allowed-tools' records preapproved tools, not a permission ceiling; add a tool only when it is independently approved as necessary, not to silence this finding. For MCP server manifests, use a 'permissions' list naming the required capabilities.",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI02"
+      ],
+      "evidence": {},
+      "match_fingerprint": null,
+      "occurrences": [
+        {
+          "file": "SKILL.md",
+          "start_line": 1,
+          "end_line": null
+        }
+      ],
+      "surface": "instructions"
+    },
+    {
+      "id": "YR4",
+      "finding_id": "finding-fe7ec0cdaa4e40d0a06ca00348e14605",
+      "category": "YARA Match",
+      "pattern": "YARA rule 'network_reconnaissance': Network reconnaissance and scanning patterns [hacktools]",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "examples/bold-studio.md",
+        "start_line": 45,
+        "end_line": null
+      },
+      "finding": "fierce",
+      "explanation": "YARA rule matched a hack tool or exploit indicator (offensive tools, reconnaissance, privilege escalation, or exploit frameworks).",
+      "remediation": "Remove offensive tool references and exploit code. Legitimate agent skills should not contain penetration testing tools, exploit frameworks, or reconnaissance utilities.",
+      "code_snippet": "/70`, `text-xs sm:text-sm`, `font-inter`, `tracking-[0.3em]`, uppercase. Uses `animate-fade-up` (no delay). Has `mb-6 lg:mb-8`.\n\n2. **Main Heading:** Three lines in `font-podium`, white, uppercase, `leading-[0.92]`, `tracking-tight`, each using `text-[clamp(2.8rem,8vw,7rem)]`:\n   - \"Design.\"\n   - \"Disrupt.\"\n   - \"Conquer.\"\n   Uses `animate-fade-up-delay-1` (0.2s delay).\n\n3. **Subtext:** \"We build fierce brand identities\" (line break) \"that don't just turn heads --\" then bold white \"they lead.\" in `text-white/70`, `text-sm sm:text-base`, `font-inter`, `leading-relaxed`, `max-w-md`. Uses `animate-fade-up-delay-2` (0.4s delay). `mt-6 lg:mt-8`.\n\n4. **CTA Row:** Uses `animate-fade-up-delay-3` (0.6s delay), `mt-8 lg:mt-10`, `flex flex-wrap items-center gap-4 sm:gap-6`.\n   - Black button \"SEE OUR WORK\" with `ArrowUpRight` icon. `bg-black hover:bg-neutral-900`, `px-5 sm:px-7 py-3 sm:py-4`, `text-[11px] sm:text-xs`, `tracking-widest`, uppercase. Arrow has `group-hover:translate-x-0.5 group-hove",
+      "intent": null,
+      "tags": [
+        "YARA Match"
+      ],
+      "evidence": {},
+      "match_fingerprint": "c119eeafe06afe31152d3851682fa4f36f80409a020bf9821d167b5fcb820a36",
+      "occurrences": [
+        {
+          "file": "examples/bold-studio.md",
+          "start_line": 45,
+          "end_line": null
+        }
+      ],
+      "surface": "docs"
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-17a270bd9b864bb48218a3c7fb517418",
+      "category": "MCP Rug Pull",
+      "pattern": "MCP server referenced without pinned version: 'npx serve'.",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/techniques/3d-and-webgl.md",
+        "start_line": 5,
+        "end_line": null
+      },
+      "finding": "npx serve",
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "2e4ab4d8d22464677518fa911ce0192136dd538ba7fcbc16a8d30281256df0ef",
+      "occurrences": [
+        {
+          "file": "references/techniques/3d-and-webgl.md",
+          "start_line": 5,
+          "end_line": null
+        }
+      ],
+      "surface": "docs"
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-42ef697e06cd4fdbb0b6299cb14a5f04",
+      "category": "MCP Rug Pull",
+      "pattern": "MCP server referenced without pinned version: 'npx gltf-transform'.",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "references/techniques/3d-and-webgl.md",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": "npx gltf-transform",
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "146528b31b6fb30d4c2f5b88cee7f156a1d7e0f8eb768ba0632cf1e09b257308",
+      "occurrences": [
+        {
+          "file": "references/techniques/3d-and-webgl.md",
+          "start_line": 23,
+          "end_line": null
+        }
+      ],
+      "surface": "docs"
+    },
+    {
+      "id": "AE4",
+      "finding_id": "finding-90bec9615ff04464a6d028801e4691f7",
+      "category": "analysis-evasion",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "references/techniques/video-and-media.md",
+        "start_line": 1,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Suspicious Unicode normalization or mixed-script content",
+      "remediation": "Review the flagged content for security risks. Ensure no credentials, secrets, or sensitive data are exposed.",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "artifact-integrity"
+      ],
+      "evidence": {},
+      "match_fingerprint": null,
+      "occurrences": [
+        {
+          "file": "references/techniques/video-and-media.md",
+          "start_line": 1,
+          "end_line": null
+        }
+      ],
+      "surface": "docs"
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-acf1c0028a424373a54ef21f53ae3735",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "scripts/shoot.py",
+        "start_line": 97,
+        "end_line": 99,
+        "start_column": 8,
+        "end_column": 56
+      },
+      "finding": "subprocess.run([chrome, \"--headless=new\", \"--hide-scrollbars\", f\"--window-size={w},{h}\",\n                        f\"--virtual-time-budget={int(wait * 1000)}\", f\"--screenshot={out / (name + '.png')}\", u",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    if not chrome:\n        sys.exit(\"No Playwright and no Chrome found. Install: pip install playwright && python -m playwright install chromium\")\n    for name, w, h in VIEWS:\n        subprocess.run([chrome, \"--headless=new\", \"--hide-scrollbars\", f\"--window-size={w},{h}\",\n                        f\"--virtual-time-budget={int(wait * 1000)}\", f\"--screenshot={out / (name + '.png')}\", url],\n                       capture_output=True, timeout=120)\n    return {\"note\": \"headless Chrome fallback: screenshots only, no QA report\"}",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "6fed8c23076be681fd4c2ecbc536a3428ef61c0296dd04da86ee28996c96549c",
+      "occurrences": [
+        {
+          "file": "scripts/shoot.py",
+          "start_line": 97,
+          "end_line": 99,
+          "start_column": 8,
+          "end_column": 56
+        }
+      ],
+      "surface": "code"
+    }
+  ],
+  "suppressed_count": 0,
+  "suppressed": [],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.12.0",
+    "llm_requested": false,
+    "llm_available": false,
+    "meta_analysis_applied": false,
+    "inference_usage": [],
+    "llm_provenance": {
+      "schema_version": 1,
+      "provider": {
+        "configured_adapter": "unknown",
+        "resolved_adapter": "unknown",
+        "effective_adapter": "not_applicable",
+        "effective_adapters": [],
+        "service": "unknown",
+        "routing": {
+          "deployment_override": null,
+          "deployment_source": "unknown",
+          "api_version": null,
+          "api_version_source": "unknown"
+        }
+      },
+      "analyzers": [
+        {
+          "analyzer_id": "mcp_tool_poisoning",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.12.0",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "e14c450b260958ed3ebd83c94c09c4b093e3e656",
+              "source": "package_vcs_metadata"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_developer_intent",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.12.0",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "e14c450b260958ed3ebd83c94c09c4b093e3e656",
+              "source": "package_vcs_metadata"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_quality_policy",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.12.0",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "e14c450b260958ed3ebd83c94c09c4b093e3e656",
+              "source": "package_vcs_metadata"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_security_discovery",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.12.0",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "e14c450b260958ed3ebd83c94c09c4b093e3e656",
+              "source": "package_vcs_metadata"
+            }
+          }
+        },
+        {
+          "analyzer_id": "meta_analyzer",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.12.0",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "e14c450b260958ed3ebd83c94c09c4b093e3e656",
+              "source": "package_vcs_metadata"
+            }
+          }
+        }
+      ],
+      "sampling": {
+        "temperature": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "seed": {
+          "requested": null,
+          "source": "unset",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "reasoning_effort": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        }
+      },
+      "determinism": {
+        "classification": "not_applicable",
+        "control_status": "not_applied",
+        "provider_guarantee": false,
+        "reason": "LLM analysis was not executed for this scan."
+      }
+    },
+    "filtering_mode": "heuristic"
+  },
+  "execution_successful": true,
+  "analysis_completeness": {
+    "total_components": 57,
+    "scanned_components": 50,
+    "coverage_percent": 87.7,
+    "is_complete": false,
+    "status": "partial",
+    "execution_successful": true,
+    "fully_inspected_files": 50,
+    "partially_inspected_files": 7,
+    "entirely_uninspected_files": 0,
+    "ledger_exceptions": [
+      {
+        "outcome": "partial",
+        "phase": "reference_resolution",
+        "reason_code": "reference_missing",
+        "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+        "path": "SKILL.md",
+        "start_line": 16,
+        "end_line": 16,
+        "fatal": false
+      },
+      {
+        "outcome": "partial",
+        "phase": "reference_resolution",
+        "reason_code": "reference_missing",
+        "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+        "path": "SKILL.md",
+        "start_line": 17,
+        "end_line": 17,
+        "fatal": false
+      },
+      {
+        "outcome": "partial",
+        "phase": "reference_resolution",
+        "reason_code": "reference_missing",
+        "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+        "path": "SKILL.md",
+        "start_line": 47,
+        "end_line": 47,
+        "fatal": false
+      },
+      {
+        "outcome": "partial",
+        "phase": "reference_resolution",
+        "reason_code": "reference_missing",
+        "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+        "path": "SKILL.md",
+        "start_line": 48,
+        "end_line": 48,
+        "fatal": false
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "examples/agent-wave.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "examples/ai-workflow.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "examples/mostar-guide.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "examples/prompt-hero.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "references/techniques/depth-and-interaction.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "obfuscated_instruction_text",
+        "message": "Obfuscated instruction text could not be fully evaluated by the deterministic layer.",
+        "path": "references/techniques/layout-and-ui.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "references/techniques/layout-and-ui.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "partial",
+        "phase": "static",
+        "reason_code": "static_parse_limit",
+        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+        "path": "references/techniques/scroll.md",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_tool_misuse"
+        ]
+      }
+    ],
+    "scope_exclusions": [
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-1.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-2.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-3.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-4.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-5.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "media/sheet-6.jpg",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      }
+    ],
+    "analyzer_statuses": [
+      {
+        "analyzer_id": "artifact_integrity",
+        "status": "completed",
+        "planned_work": 63,
+        "completed": 63,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_ast",
+        "status": "completed",
+        "planned_work": 1,
+        "completed": 1,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_taint_tracking",
+        "status": "completed",
+        "planned_work": 1,
+        "completed": 1,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "bundled_execution_surface",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "no_applicable_files",
+        "message": "No files matched this analyzer's applicability contract."
+      },
+      {
+        "analyzer_id": "mcp_least_privilege",
+        "status": "completed",
+        "planned_work": 2,
+        "completed": 2,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "mcp_rug_pull",
+        "status": "completed",
+        "planned_work": 63,
+        "completed": 63,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "mcp_tool_poisoning",
+        "status": "completed",
+        "planned_work": 1,
+        "completed": 1,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "meta_analyzer",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_developer_intent",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_quality_policy",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_security_discovery",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "static_patterns_agent_snooping",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_anti_refusal",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_data_exfiltration",
+        "status": "completed",
+        "planned_work": 57,
+        "completed": 57,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_deserialization",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_excessive_agency",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_harmful_content",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_memory_poisoning",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_output_handling",
+        "status": "completed",
+        "planned_work": 57,
+        "completed": 57,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_privilege_escalation",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_prompt_injection",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_rogue_agent",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_ssrf",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_supply_chain",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_system_prompt_leakage",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 56,
+        "partial": 1,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_tool_misuse",
+        "status": "degraded",
+        "planned_work": 57,
+        "completed": 50,
+        "partial": 7,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_yara",
+        "status": "completed",
+        "planned_work": 63,
+        "completed": 63,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      }
+    ],
+    "references": [
+      {
+        "source_path": "SKILL.md",
+        "line": 16,
+        "column": 121,
+        "evidence": "- **The signature:** the one memorable idea this page will be known for (media, interaction or type moment). Pick from `references/techniques.md` or invent one.",
+        "target_path": null,
+        "status": "missing",
+        "disposition": "partial",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 17,
+        "column": 25,
+        "evidence": "- **Output:** a single `index.html` (default: CDN only, opens anywhere), the user's existing stack (React/Next/Vite...), or a **prompt only** for another builde",
+        "target_path": null,
+        "status": "missing",
+        "disposition": "partial",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 17,
+        "column": 169,
+        "evidence": "ting stack (React/Next/Vite...), or a **prompt only** for another builder (see `references/builders.md`).",
+        "target_path": "references/builders.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 23,
+        "column": 7,
+        "evidence": "Open `examples/INDEX.md`. These are the most-liked free prompts on motionsites.ai, real designs people love. Pick the **2\u20133 closest** to the brief (by category,",
+        "target_path": "examples/INDEX.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 31,
+        "column": 77,
+        "evidence": "Great pages are carried by great media. In order of preference (details in `references/assets.md`):",
+        "target_path": "references/assets.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 33,
+        "column": 100,
+        "evidence": "2. Generate them, if you have an image/video/3D generation tool available (prompt formulas are in `assets.md`).",
+        "target_path": "references/assets.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 34,
+        "column": 26,
+        "evidence": "3. **The media shelf:** `media/MEDIA.md` plus the numbered contact sheets `media/sheet-*.jpg`. Look at the sheets, pick by eye, and use the exact URL. These cin",
+        "target_path": "media/MEDIA.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 40,
+        "column": 29,
+        "evidence": "Write the build spec using `references/spec-template.md`, at the same level of detail as the examples you read. This is where quality is decided. Every element ",
+        "target_path": "references/spec-template.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 44,
+        "column": 105,
+        "evidence": "**prompt only**, the spec is the deliverable: format it for their builder (see `references/builders.md`) and you're done after a self-check against `references/",
+        "target_path": "references/builders.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 44,
+        "column": 174,
+        "evidence": "lder (see `references/builders.md`) and you're done after a self-check against `references/review.md`.",
+        "target_path": "references/review.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 47,
+        "column": 55,
+        "evidence": "Build exactly what the spec says, using recipes from `references/techniques.md` (they are tested and handle mobile and reduced motion).",
+        "target_path": null,
+        "status": "missing",
+        "disposition": "partial",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 48,
+        "column": 33,
+        "evidence": "- **Single-file default:** one `index.html` with inline `<style>` and `<script>`, Google Fonts, and libraries from a CDN with pinned versions (e.g. `three@0.170",
+        "target_path": null,
+        "status": "missing",
+        "disposition": "partial",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 54,
+        "column": 13,
+        "evidence": "Run `python scripts/shoot.py index.html shots/` (it needs Playwright; see the script's header), then **open and look at** the screenshots. Score the page with `",
+        "target_path": "scripts/shoot.py",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "inline_command"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 54,
+        "column": 161,
+        "evidence": "ript's header), then **open and look at** the screenshots. Score the page with `references/review.md`, fix the three weakest areas with concrete changes, and sh",
+        "target_path": "references/review.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 73,
+        "column": 60,
+        "evidence": "This skill is free because it's sponsored by [MotionSites](https://motionsites.ai/?utm_source=claude-skill&utm_medium=skill&utm_campaign=web-builder). The 40 ex",
+        "target_path": null,
+        "status": "rejected",
+        "disposition": "out_of_scope",
+        "reference_kind": "markdown_link"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 86,
+        "column": 22,
+        "evidence": "> \ud83d\udc49 **[Go Unlimited](https://motionsites.ai/unlimited?utm_source=claude-skill&utm_medium=skill&utm_campaign=web-builder&utm_content=upgrade-block)**",
+        "target_path": null,
+        "status": "rejected",
+        "disposition": "out_of_scope",
+        "reference_kind": "markdown_link"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 109,
+        "column": 4,
+        "evidence": "- `examples/INDEX.md` and `examples/*.md`: the 40 most-liked free prompts (refreshed regularly).",
+        "target_path": "examples/INDEX.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 110,
+        "column": 4,
+        "evidence": "- `media/MEDIA.md` and `media/sheet-*.jpg`: the media shelf.",
+        "target_path": "media/MEDIA.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 111,
+        "column": 4,
+        "evidence": "- `references/spec-template.md`: the spec skeleton and precision checklist.",
+        "target_path": "references/spec-template.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 112,
+        "column": 4,
+        "evidence": "- `references/techniques/INDEX.md`: signature effects with working code (one file per category).",
+        "target_path": "references/techniques/INDEX.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 113,
+        "column": 4,
+        "evidence": "- `references/craft.md`: the taste rules (type, colour, space, motion, copy) with numbers.",
+        "target_path": "references/craft.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 114,
+        "column": 4,
+        "evidence": "- `references/assets.md`: sourcing, generating and preparing media.",
+        "target_path": "references/assets.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 115,
+        "column": 4,
+        "evidence": "- `references/builders.md`: adapting the spec for Lovable, Bolt, v0, Cursor, Manus, AI Studio and Kimi.",
+        "target_path": "references/builders.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 116,
+        "column": 4,
+        "evidence": "- `references/review.md`: the screenshot rubric and fix loop.",
+        "target_path": "references/review.md",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      },
+      {
+        "source_path": "SKILL.md",
+        "line": 117,
+        "column": 4,
+        "evidence": "- `scripts/shoot.py`: screenshots plus a QA report.",
+        "target_path": "scripts/shoot.py",
+        "status": "resolved",
+        "disposition": "analyzed",
+        "reference_kind": "quoted_or_code"
+      }
+    ],
+    "limitations": [
+      "Analyzer static_patterns_agent_snooping status: degraded.",
+      "Analyzer static_patterns_anti_refusal status: degraded.",
+      "Analyzer static_patterns_deserialization status: degraded.",
+      "Analyzer static_patterns_excessive_agency status: degraded.",
+      "Analyzer static_patterns_harmful_content status: degraded.",
+      "Analyzer static_patterns_memory_poisoning status: degraded.",
+      "Analyzer static_patterns_privilege_escalation status: degraded.",
+      "Analyzer static_patterns_prompt_injection status: degraded.",
+      "Analyzer static_patterns_rogue_agent status: degraded.",
+      "Analyzer static_patterns_ssrf status: degraded.",
+      "Analyzer static_patterns_supply_chain status: degraded.",
+      "Analyzer static_patterns_system_prompt_leakage status: degraded.",
+      "Analyzer static_patterns_tool_misuse status: degraded."
+    ],
+    "findings_before_filtering": 6,
+    "findings_after_filtering": 6,
+    "dependency_inspection": {
+      "enabled": false,
+      "status": "not_requested",
+      "mode": "static_local",
+      "locked_entries": 0,
+      "inspected_artifacts": 0,
+      "artifacts": []
+    }
+  }
+}

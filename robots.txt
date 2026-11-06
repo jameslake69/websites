@@ -1,0 +1,6 @@
+# robots.txt — Growing Happy example site
+# Replace example.com with the real domain before publishing.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
